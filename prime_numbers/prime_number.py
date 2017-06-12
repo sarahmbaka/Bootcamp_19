@@ -1,11 +1,5 @@
 def get_prime_numbers(val):
-    """
-    function to generate a list of prime numbers within a certain range
-
-    args: value which is the upper limit for the range
-
-    returns a list of prime numbers"""
-
+    
     if isinstance(val, int):
         if val > 1:
             prime_list = []
@@ -23,4 +17,4 @@ def get_prime_numbers(val):
     return prime_list
 
 
-print(get_prime_numbers(12))
+print(get_prime_numbers(56))
