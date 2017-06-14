@@ -4,11 +4,13 @@ This is a folder containing several functions in Python language.
 
 
 
-# Day_3 contains four functions
+# Day_3 contains two functions
 
 1. A function  that counts the occurrences or characters in a word
 
+2. A function that return the maximum and minimum value in a list.
 
 Running tests
 
 $ pytest test_word_count.py -v
+$ pytest test_max_min.py -v
